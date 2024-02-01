@@ -9,13 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @State var cardCount: Int = 4
-    let emojis: [String] = ["🐵", "🐷", "🦊", "🐸", "🐶","🐭", "🐥", "🦁", "🐢", "🐔" ]
+    let emojis: [String] = ["🐵", "🐷", "🦊", "🐸", "🐶","🐭", "🐥", "🦁", "🐢", "🐔" , "🦆"]
     var body: some View {
         VStack{
             ScrollView{
                 cards
             }
-            cardAdjusters
         }
         .padding()
             
